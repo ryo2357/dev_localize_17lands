@@ -1,0 +1,15 @@
+[package]
+name = "localize_17lands"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.106"
+
+mylogger = { git = "https://github.com/ryo2357/rs-mylogger" }
+log = "0.4.20"
+regex = "1.9.5"
